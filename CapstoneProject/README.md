@@ -10,4 +10,10 @@ The attached images are the outputs of some of the questions. The following are 
 6. In the titles column there are "Reasons/Departments" specified before the title code. These are EMS, Fire, and Traffic. Use
    .apply() with a custom lambda expression to create a new column called "Reason" that contains this string value. 
    For example, if the title column value is EMS: BACK PAINS/INJURY, the Reason column value would be EMS.
-
+7. What is the most common Reason for a 911 call based off of this new column?
+8. Now use seaborn to create a countplot of 911 calls by Reason.
+9. Now let us begin to focus on time information. What is the data type of the objects in the timeStamp column?
+10. Use pd.to_datetime to convert the column from strings to DateTime objects.
+11. You can now grab specific attributes from a Datetime object by calling them. Use .apply() to create 3 new columns called      Hour, Month, and Day of Week. You will create these columns based off of the timeStamp column.
+12. Notice how the Day of Week is an integer 0-6. Use the .map() with this dictionary to map the actual string names to the      day of the week:
+13. Now use seaborn to create a countplot of the Day of Week column with the hue based off of the Reason column.
