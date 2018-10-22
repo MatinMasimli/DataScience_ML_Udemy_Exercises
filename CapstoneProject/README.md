@@ -17,3 +17,7 @@ The attached images are the outputs of some of the questions. The following are 
 11. You can now grab specific attributes from a Datetime object by calling them. Use .apply() to create 3 new columns called      Hour, Month, and Day of Week. You will create these columns based off of the timeStamp column.
 12. Notice how the Day of Week is an integer 0-6. Use the .map() with this dictionary to map the actual string names to the      day of the week:
 13. Now use seaborn to create a countplot of the Day of Week column with the hue based off of the Reason column.
+14. Same as question 13 for Month:
+15. Create a groupby object called byMonth, where you group the DataFrame by the month column and use the count() method for 
+   aggregation. Use the head() method on this returned DataFrame.
+16. Create a simple plot off of the dataframe indicating the count of calls per month.
