@@ -21,3 +21,12 @@ The attached images are the outputs of some of the questions. The following are 
 15. Create a groupby object called byMonth, where you group the DataFrame by the month column and use the count() method for 
    aggregation. Use the head() method on this returned DataFrame.
 16. Create a simple plot off of the dataframe indicating the count of calls per month.
+17. Create a linear fit on the number of calls per month by using lmplot(). First, reset the index to a column.
+18. Create a new column called 'Date' that contains the date from the timStamp column. You'll need to use apply along with the 
+   .date() method.
+19. Groupby this Date column with the count() aggregate and create a plot of counts of 911 calls. 
+20. Recreate the plot but create 3 separate plots with each plot representing a Reason for the 911 call.
+21. Combine groupby with an unstack method. Reference the solutions if you get stuck on this.
+22. Create a HeatMap using this new DataFrame.
+23. Create a clustermap using this DataFrame.
+24. Repeat these same plots and operations, for a DataFrame that shows the Month as the column. 
